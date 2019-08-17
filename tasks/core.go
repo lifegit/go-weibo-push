@@ -536,7 +536,7 @@ func NextRun() (job *Job, time time.Time) {
 func RunTasks() {
 	// Do jobs with params
 	//Every(1).Second().Do(taskWithParams, 1, "hello")
-	Every(3).Minutes().Do(task)
+	Every(90).Seconds().Do(task)
 
 	//// Do jobs without params
 	//Every(1).Second().Do(task)

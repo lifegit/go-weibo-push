@@ -4,4 +4,4 @@
     name = "go-weibo-push"
     version = 1
     timeZone = "Asia/Shanghai" # 时区
-    env = "dev"                # 环境仅允许本地 eg:dev eg:prod
+    env = "prod"                # 环境仅允许本地 eg:dev eg:prod
