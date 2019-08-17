@@ -1,0 +1,7 @@
+# toml 转 struct : https://github.com/xuri/toml-to-go
+
+[app]
+    name = "go-weibo-push"
+    version = 1
+    timeZone = "Asia/Shanghai" # 时区
+    env = "dev"                # 环境仅允许本地 eg:dev eg:prod
