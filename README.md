@@ -4,8 +4,8 @@
 时间仓促，代码质量较差，请包含。
 
 完成的功能：
-task        定时器获取信息
-mysql       持久化
-logging     日志记录
-conf        runtime的conf
-mail        SMTP发送邮件
+1. task        定时器获取信息
+2. mysql       持久化
+3. logging     日志记录
+4. conf        runtime的conf
+5. mail        SMTP发送邮件

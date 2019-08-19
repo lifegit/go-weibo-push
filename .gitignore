@@ -2,6 +2,6 @@
 
 .idea
 conf/prod
-runtime/logs
+runtime/logs/*
 go-weibo-push
 main
