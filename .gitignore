@@ -1,7 +1,15 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-.idea
-conf/prod
-runtime/logs/*
-go-weibo-push
 main
+go-weibo-push
+*.exe
+*.log
+conf/*
+!conf/dev
+!conf/base.toml
+.idea/*
+.idea
+.vscode/*
+.vscode
+runtime
+*.test

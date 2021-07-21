@@ -9,3 +9,6 @@
 3. logging     日志记录
 4. conf        runtime的conf
 5. mail        SMTP发送邮件
+
+
+v2 : 2020-07-21 重构

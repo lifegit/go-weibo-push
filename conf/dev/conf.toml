@@ -1,8 +1,3 @@
-
-[log]
-    baseDir = "./runtime/logs/logging"
-
-
 [db]
     type = "mysql"
     addr = "127.0.0.1"
@@ -12,14 +7,11 @@
     database = "db_weibo"
     charset = "utf8"
 
-[enable]
-    sqlLog = true               # 在控制台显示gorm的logs
-
-# 以下参数为runtime参数，修改配置文件保存后,不用重启go程序
 [mail]  #SMTP
     user = ""
     pass = "" # 定义邮箱服务器连接信息，如果是阿里邮箱 pass填密码，qq邮箱填授权码
     to   = ["xxx@qq.com"] # 发送到的邮箱
+
 [weibo]
     uid = "" # 微博用户的uid
     containerid = "" # 微博的containerid
