@@ -12,10 +12,9 @@ import (
 
 var Log *logrus.Logger
 
-
 func SetUpBasics() {
 	// timeZone
-	_, _ = time.LoadLocation(Global.App.TimeZone)
+	time.Local, _ = time.LoadLocation(Global.App.TimeZone)
 
 	// log
 	Log = logging.NewLogger(Global.App.Log, 15, &logrus.TextFormatter{}, nil)

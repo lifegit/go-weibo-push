@@ -30,5 +30,7 @@ WORKDIR /app
 COPY --from=build /app/go-weibo-push ./
 COPY --from=build /app/conf/base.toml ./conf/base.toml
 COPY --from=build /app/conf/prod ./conf/prod
+# set time zone
+RUN apk add --no-cache tzdata
 EXPOSE 8881
 ENTRYPOINT ["env","GO_ENV=prod","/app/go-weibo-push", "-other", "flags"]
